@@ -1,0 +1,53 @@
+body{
+    margin: 0%;
+    height: 100%;
+}
+
+#container{
+    background-color: blueviolet;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+.first1{
+    background-color:
+     green;
+    margin: 2%;
+    padding: 5%;
+    border: 2em ridge black;
+    border-radius: 50%;
+    animation: balls 1s linear infinite;
+}
+@keyframes balls  {
+    0%{
+        transform:translatey(20%);
+    }
+    }
+    
+}
+.second2{
+    background-color: aqua;
+    margin: 2%;
+    padding: 5%;
+    border: 2em double greenyellow;
+    border-radius: 25%;
+    animation: roller 2s ease-in-out infinite ;
+}
+@keyframes roller {
+    0%{
+        transform: rotateZ(30deg);
+    }
+    
+}
+.third3{
+    background-color: brown;
+    margin: 2%;
+    padding: 5%;
+    border: 2em dodgerblue wheat;
+    border-radius: 20%;
+    animation: balls 2s linear infinite;
+}
+@keyframes balls{
+    20%{
+        transform: translatey(30%);
+    }
+}

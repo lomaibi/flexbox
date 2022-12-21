@@ -1,0 +1,38 @@
+
+body{
+    margin: 0%;
+
+}
+#wrapper{
+    background-color: blueviolet;
+    border: .2em dotted green;
+}
+#container{
+    background-color: aqua;
+}
+.navbar{
+    display: flex;
+    
+}
+
+ul{
+    display: inline-flex;
+}
+ul>li{
+    margin-right: 0%;
+    margin-left: 20%;
+}
+ul>li:last-child{
+    background-color: brown;
+}
+
+button{
+    margin-right: 0%;
+    margin-left: auto;
+    background-color: green;
+}
+
+
+
+
+
